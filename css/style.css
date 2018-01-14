@@ -109,14 +109,6 @@ figcaption {
 }
 
 
-.img2 {
-	width: 50%;
-	height: 50%;
-	background: url('../img/avat.png') no-repeat center;
-	background-size: cover;
-}
-
-
 .banner {
 	background: #fff;
 	width: 100%;
@@ -203,6 +195,11 @@ figcaption {
 		width: 60%;
 		margin: 0 auto;
 		margin-top: 4em;
+		box-shadow: 0 1px 4px rgba(0,0,0,.7);
+	}
+
+	.feat-img {
+		box-shadow: 0 1px 4px rgba(0,0,0,.7);
 	}
 
 	.main-nav {
