@@ -85,6 +85,10 @@ figcaption {
 	text-transform: uppercase;
 }
 
+.tertiary {
+	padding-top: 30px;
+}
+
 .main-nav a:hover {
 	color: #093a58;
 }
@@ -94,6 +98,8 @@ figcaption {
 .main-header {
 	padding-top: .5em;
 	padding-bottom: .5em;
+	box-shadow: 0 1px 4px rgba(0,0,0,.4);
+
 }
 .img {
 	padding-top: 170px;
@@ -108,6 +114,11 @@ figcaption {
 	text-align: center;
 }
 
+#banner {
+	padding-top: 0;
+	padding-bottom:  40px;
+
+}
 
 .banner {
 	background: #fff;
@@ -119,9 +130,6 @@ figcaption {
 	background: #fff;
 	padding-top: 3em;
 	text-align: center;
-
-
-
 }
 
 .col,
@@ -134,7 +142,9 @@ figcaption {
 	padding: 1em;
 }
 
-
+.primary {
+	margin-bottom: 20px;
+}
 
 .main-footer {
 	background: #d9e4ea;
@@ -150,6 +160,8 @@ figcaption {
 
 .headline {
 	margin-bottom: 0;
+	margin-top: 0;
+
 }
 
 .icon-location {
@@ -237,6 +249,7 @@ figcaption {
 	.secondary,
 	.tertiary {
 		width: 30%;
+		padding-top: 0px;
 	}
 
 	.tokyo, .kyoto, .nara {
